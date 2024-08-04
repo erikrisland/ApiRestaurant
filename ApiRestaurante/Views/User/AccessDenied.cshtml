@@ -1,0 +1,20 @@
+﻿@using ApiRestaurante.Core.Application.ViewModels.Users
+@model string
+@{
+    ViewData["Title"] = "Accesso denegado";
+}
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-6 offset-3 text-center">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="">Accesso Denegado</h3>
+                    <p>No puede acceder a esta sección, no tiene los permisos requeridos para entrar a esta sección.</p>
+
+                    <button class="btn btn-danger mt-3" onclick="history.go(-1);">Volver atrás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
