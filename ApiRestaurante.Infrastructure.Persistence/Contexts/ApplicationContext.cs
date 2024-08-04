@@ -19,7 +19,7 @@ namespace ApiRestaurante.Infrastructure.Persistence.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Fluent API
+           // Fluent API
 
             #region Tablas
             modelBuilder.Entity<Ingrediente>().ToTable("Ingredientes");
